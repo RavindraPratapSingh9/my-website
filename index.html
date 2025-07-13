@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section scroll-reveal">
+    <div class="home-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I’m a passionate Web Developer with creative ideas and a desire to build beautiful websites.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section scroll-reveal">
+    <div class="container">
+      <h2>About Me</h2>
+
+    <!-- Profile Picture -->
+    <div class="profile-pic">
+        <img src="Ravindra.jpg" alt="Ravindra Profile Picture">
+      </div>
+
+      <p class="about-text">
+        Hello! I'm Alex Raynor, a passionate Front-End Web Developer with a flair for design and detail.
+        I specialize in creating interactive and visually appealing websites that offer seamless user experiences.
+        With over 3 years of experience building small business websites and personal projects, I’m constantly learning
+        and exploring new trends in web development.
+      </p>
+      <p class="about-text">
+        My skills include HTML, CSS, JavaScript, and responsive design. When I’m not coding, you’ll find me sketching UI layouts,
+        exploring sci-fi novels, or experimenting with new animation libraries.
+      </p>
+    </div>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section scroll-reveal">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <h3>Portfolio Redesign</h3>
+          <p>A modern and responsive redesign of my personal portfolio using HTML, CSS, and JavaScript.</p>
+          <a href="#" class="project-link" target="_blank">View Project</a>
+        </div>
+  
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <h3>Task Manager App</h3>
+          <p>A simple to-do app that helps users organize tasks with intuitive UI and local storage support.</p>
+          <a href="#" class="project-link" target="_blank">View Project</a>
+        </div>
+  
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <h3>Landing Page Template</h3>
+          <p>A clean and minimal landing page template built for startups and small businesses.</p>
+          <a href="#" class="project-link" target="_blank">View Project</a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section scroll-reveal">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p class="contact-intro">
+        Have a question, suggestion, or opportunity? Feel free to reach out — I'm always open to a good conversation.
+      </p>
+  
+      <form class="contact-form" action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <!-- Contact Info Links -->
+      <div class="contact-links">
+        <p>Email: <a href="mailto:alex.raynor@example.com">alex.raynor@example.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/1234567890" target="_blank">+1 234 567 890</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/alexraynor" target="_blank">linkedin.com/in/alexraynor</a></p>
+      </div>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>

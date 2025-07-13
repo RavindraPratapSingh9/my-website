@@ -106,15 +106,15 @@
   }
   
   /* Responsive */
-  @media (max-width: 768px) {
+  @media (max-width: 48rem) {
     .nav-links {
       display: none;
       flex-direction: column;
       background-color: #500073;
       position: absolute;
-      top: 70px;
+      top: 4.375rem;
       right: 0;
-      width: 200px;
+      width: 12.5rem;
       padding: 1rem;
     }
   
@@ -358,4 +358,23 @@
       font-size: 1.2rem;
     }
   }
-  
+
+.project-details.hidden {
+  display: none;
+}
+
+.project-toggle {
+  background-color: #C62300;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-toggle:hover {
+  background-color: #F14A00;
+}

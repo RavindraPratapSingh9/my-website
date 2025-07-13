@@ -47,3 +47,11 @@ document.getElementById("menu-toggle").addEventListener("click", () => {
   window.addEventListener("scroll", revealOnScroll);
   window.addEventListener("load", revealOnScroll);
   
+// === Toggle project details ===
+document.querySelectorAll(".project-toggle").forEach(button => {
+  button.addEventListener("click", () => {
+    const details = button.previousElementSibling;
+    details.classList.toggle("hidden");
+    button.textContent = details.classList.contains("hidden") ? "Show More" : "Show Less";
+  });
+});
